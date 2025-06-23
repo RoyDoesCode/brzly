@@ -1,14 +1,12 @@
 import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Variants } from "motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
-
-import { HeroHeader } from "../header";
-import { useTranslations } from "next-intl";
 
 const transitionVariants: {
     container?: Variants;
@@ -38,7 +36,6 @@ export default function Hero() {
 
     return (
         <>
-            <HeroHeader />
             <main className="overflow-hidden">
                 <div aria-hidden className="absolute inset-0 isolate hidden opacity-65 contain-strict lg:block">
                     <div className="w-140 h-320 -translate-y-87.5 absolute left-0 top-0 -rotate-45 rounded-full bg-[radial-gradient(68.54%_68.72%_at_55.02%_31.46%,hsla(0,0%,85%,.08)_0,hsla(0,0%,55%,.02)_50%,hsla(0,0%,45%,0)_80%)]" />

@@ -105,6 +105,45 @@
                 "3": "Organizations committed to protecting their and their clients' data privacy.",
                 "4": "Anyone looking for a custom-fit solution, not a generic, off-the-shelf product."
             }
+        },
+        "Testimonials": {
+            "title": "Don't Just Take Our Word for It",
+            "description": "Success stories from teams who turned AI into a competitive edge with our help."
+        },
+        "FAQs": {
+            "title": "Frequently Asked Questions",
+            "description": "You probably have a lot of questions...",
+            "items": {
+                "0": {
+                    "q": "What is On-Premise AI?",
+                    "a": "It's an AI system that is installed and runs directly on your business's own servers and infrastructure, rather than on external cloud servers. All data and processing stay within your organization."
+                },
+                "1": {
+                    "q": "What are the main advantages of on-premise AI over cloud AI?",
+                    "a": "Key benefits include enhanced data privacy, improved security, predictable operational costs, and faster performance that is not dependent on an internet connection."
+                },
+                "2": {
+                    "q": "Is on-premise AI suitable for small and medium-sized businesses?",
+                    "a": "Absolutely. We specialize in tailoring on-premise AI solutions for SMBs, focusing on simple implementation and operation, even for businesses without a large IT team."
+                },
+                "3": {
+                    "q": "Do BRZLY's solutions require prior technical knowledge?",
+                    "a": "No. We handle the entire technical process, from installation to integration, and provide full guidance and training so you don't need any previous technical expertise."
+                },
+                "4": {
+                    "q": "How long does it take to implement a local AI solution?",
+                    "a": "The implementation timeline varies depending on the solution's complexity. After a discovery meeting, we provide a precise time estimate and a transparent schedule."
+                }
+            }
+        },
+        "CallToAction": {
+            "title": "Ready for the Private AI Revolution?",
+            "description": "The future of your business starts here. Don't compromise on privacy, efficiency, or control. Contact BRZLY today to discover how on-premise AI can transform your business for the better.",
+            "cta": "Send",
+            "placeholder": "WhatsApp phone no."
         }
+    },
+    "Footer": {
+        "rights": "BRZLY, All rights reserved"
     }
 }
