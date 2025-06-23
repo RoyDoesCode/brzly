@@ -1,0 +1,53 @@
+{
+    "HomePage": {
+        "HeroSection": {
+            "tag": "The Solution for Small & Medium Businesses",
+            "title": "Secure & Private AI for Your Business",
+            "description": "BRZLY delivers on-premise AI solutions that run securely within your business. No cloud, no security risks, no hidden fees. Welcome to a new era of business AI - simple, secure, and entirely yours.",
+            "cta1": "Free Consultation",
+            "cta2": "How It Works"
+        },
+        "ContentSection": {
+            "title": "The AI Revolution Is Here, and It's More Accessible Than Ever",
+            "description": "Not long ago, advanced AI capabilities were exclusive to corporate giants. Today, this technology levels the playing field, empowering small and medium-sized businesses to compete with the industry leaders. From data analysis to marketing, AI is no longer a buzzword—it's your competitive edge.",
+            "tagline": "The Problem: Cloud-Based Risks. The Solution: BRZLY.",
+            "body": "Many business owners want to leverage AI but are wary of the complexity, cloud dependency, and data privacy risks. BRZLY offers the perfect solution: local AI that operates entirely within your business, helping you save time, reduce costs, and maintain complete control over your data.",
+            "cta": "Discover the Local AI Advantages",
+            "chartTitle": "AI Usage in Businesses (%)",
+            "chartDescription": "Exponential growth in AI technology usage (2023 - 2025)"
+        },
+        "Features": {
+            "title": "Your Challenges, Our Solution: Why Local AI Is the Smarter Choice",
+            "description1": "Cloud-based AI solutions present significant hurdles: security vulnerabilities, unpredictable costs, and technical complexity.",
+            "description2": "BRZLY provides a powerful alternative that neutralizes these risks.",
+            "challenges": [
+                {
+                    "title": "Privacy & Security Risks",
+                    "description": "Exposure of sensitive data, potential data leaks, and cyber-attacks."
+                },
+                {
+                    "title": "Unpredictable Costs",
+                    "description": "Complex, usage-based pricing that fluctuates from month to month."
+                },
+                {
+                    "title": "Technical Complexity",
+                    "description": "Requires specialized knowledge and training for management."
+                }
+            ],
+            "solutions": [
+                {
+                    "title": "Maximum Security",
+                    "description": "Prevent data leaks by keeping all information within your organization."
+                },
+                {
+                    "title": "Full Cost Control",
+                    "description": "Lower your Total Cost of Ownership (TCO) with no financial surprises."
+                },
+                {
+                    "title": "Simplicity & Peace of Mind",
+                    "description": "A straightforward implementation that lets you focus on results."
+                }
+            ]
+        }
+    }
+}
