@@ -71,6 +71,28 @@
                     "title2": "so you can focus on what matters most - running your business."
                 }
             }
+        },
+        "HowItWorks": {
+            "title": "How It Works: Your Journey to Smarter AI Starts Here",
+            "description": "Implementing AI might seem complex, but with BRZLY, the process is simple, transparent, and built on a foundation of true partnership.",
+            "steps": {
+                "0": {
+                    "title": "Discovery & Deep Dive",
+                    "description": "Step 1: We meet to thoroughly understand your business's unique needs, challenges, and goals."
+                },
+                "1": {
+                    "title": "Custom Solution Design",
+                    "description": "Step 2: We build a tailored plan with the best on-premise AI models for your specific operations and budget."
+                },
+                "2": {
+                    "title": "Seamless On-Site Implementation",
+                    "description": "Step 3: We install and fully integrate the system at your location, ensuring it works perfectly with your existing setup."
+                },
+                "3": {
+                    "title": "Ongoing Training & Support",
+                    "description": "Step 4: We provide comprehensive training for your team and are always available to ensure you get the most out of your solution."
+                }
+            }
         }
     }
 }

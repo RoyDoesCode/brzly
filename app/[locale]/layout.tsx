@@ -5,6 +5,7 @@ import "../globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 
+import BGGradient from "@/components/ui/bg-gradient";
 import { routing } from "@/i18n/routing";
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default async function RootLayout({
     return (
         <html lang={locale} dir={locale === "he" ? "rtl" : "ltr"} className="dark" suppressHydrationWarning>
             <body className="antialiased">
+                <BGGradient />
                 <NextIntlClientProvider>{children}</NextIntlClientProvider>
             </body>
         </html>
