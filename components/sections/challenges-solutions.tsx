@@ -6,8 +6,8 @@ import { ReactNode } from "react";
 const challengesIcons = [Zap, Settings2, Sparkles];
 const solutionsIcons = [Zap, Settings2, Sparkles];
 
-export default function Features() {
-    const t = useTranslations("HomePage.Features");
+export default function ChallengesSolutions() {
+    const t = useTranslations("HomePage.ChallengesSolutions");
 
     return (
         <section className="py-16 md:py-32">
@@ -21,7 +21,7 @@ export default function Features() {
                         <Card key={index} className="group bg-transparent border-0 shadow-none">
                             <CardHeader className="pb-3">
                                 <CardDecorator1>
-                                    <Icon className="size-6" aria-hidden />
+                                    <Icon className="size-6 text-chart-5" aria-hidden />
                                 </CardDecorator1>
 
                                 <h3 className="mt-6 font-medium">{t(`challenges.${index}.title`)}</h3>
@@ -37,11 +37,11 @@ export default function Features() {
                     <p className="mt-8">{t("description2")}</p>
                 </div>
                 <Card className="@min-4xl:max-w-full @min-4xl:grid-cols-3 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-12 bg-transparent py-0">
-                    {challengesIcons.map((Icon, index) => (
+                    {solutionsIcons.map((Icon, index) => (
                         <div key={index} className="group shadow-zinc-950/5 py-6">
                             <CardHeader className="pb-3">
                                 <CardDecorator2>
-                                    <Icon className="size-6" aria-hidden />
+                                    <Icon className="size-6 text-chart-2" aria-hidden />
                                 </CardDecorator2>
 
                                 <h3 className="mt-6 font-medium">{t(`solutions.${index}.title`)}</h3>

@@ -1,13 +1,13 @@
 {
     "HomePage": {
-        "HeroSection": {
+        "Hero": {
             "tag": "The Solution for Small & Medium Businesses",
             "title": "Secure & Private AI for Your Business",
             "description": "BRZLY delivers on-premise AI solutions that run securely within your business. No cloud, no security risks, no hidden fees. Welcome to a new era of business AI - simple, secure, and entirely yours.",
             "cta1": "Free Consultation",
             "cta2": "How It Works"
         },
-        "ContentSection": {
+        "Opportunity": {
             "title": "The AI Revolution Is Here, and It's More Accessible Than Ever",
             "description": "Not long ago, advanced AI capabilities were exclusive to corporate giants. Today, this technology levels the playing field, empowering small and medium-sized businesses to compete with the industry leaders. From data analysis to marketing, AI is no longer a buzzword—it's your competitive edge.",
             "tagline": "The Problem: Cloud-Based Risks. The Solution: BRZLY.",
@@ -16,8 +16,8 @@
             "chartTitle": "AI Usage in Businesses (%)",
             "chartDescription": "Exponential growth in AI technology usage (2023 - 2025)"
         },
-        "Features": {
-            "title": "Your Challenges, Our Solution: Why Local AI Is the Smarter Choice",
+        "ChallengesSolutions": {
+            "title": "Your Challenges, Our Solution: Why Public AI Is a Bad Choice",
             "description1": "Cloud-based AI solutions present significant hurdles: security vulnerabilities, unpredictable costs, and technical complexity.",
             "description2": "BRZLY provides a powerful alternative that neutralizes these risks.",
             "challenges": [
@@ -48,6 +48,29 @@
                     "description": "A straightforward implementation that lets you focus on results."
                 }
             ]
+        },
+        "Benefits": {
+            "title": "The BRZLY Advantage: AI That Truly Works for You",
+            "description": "We understand your business needs solutions that empower, not complicate. Our approach is designed to remove the technical burden, allowing you to focus on growth and innovation.",
+            "benefits": {
+                "private": {
+                    "tag": "Absolute Privacy",
+                    "title": "Your sensitive business data always stays within your walls.",
+                    "subtitle": "No cloud transfers - no security breaches"
+                },
+                "efficient": {
+                    "tag": "Maximum Efficiency",
+                    "title": "Get faster results without depending on internet bandwidth, with predictable and stable IT costs.",
+                    "msg1": "How many leads came in today?",
+                    "msg2": "23 new leads so far. I've sorted them by source and flagged 5 high-potential ones."
+                },
+                "tailored": { "title": "100.0% Tailored" },
+                "simple": {
+                    "tag": "Simple to Deploy & Operate",
+                    "title1": "We handle the installation, integration, and support,",
+                    "title2": "so you can focus on what matters most - running your business."
+                }
+            }
         }
     }
 }

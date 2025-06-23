@@ -5,8 +5,8 @@ import Link from "next/link";
 import { AIUsageChart } from "@/components/ui/ai-usage-chart";
 import { Button } from "@/components/ui/button";
 
-export default function ContentSection() {
-    const t = useTranslations("HomePage.ContentSection");
+export default function Opportunity() {
+    const t = useTranslations("HomePage.Opportunity");
 
     return (
         <section className="py-16 md:py-32">

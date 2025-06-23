@@ -27,7 +27,7 @@ const chartConfig: ChartConfig = {
 } satisfies ChartConfig;
 
 export function AIUsageChart() {
-    const t = useTranslations("HomePage.ContentSection");
+    const t = useTranslations("HomePage.Opportunity");
 
     return (
         <div className="relative mt-10">

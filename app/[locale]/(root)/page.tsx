@@ -1,13 +1,15 @@
-import ContentSection from "@/components/content-4";
-import Features from "@/components/features-2";
-import HeroSection from "@/components/hero-section";
+import Benefits from "@/components/sections/benefits";
+import ChallengesSolutions from "@/components/sections/challenges-solutions";
+import Hero from "@/components/sections/hero";
+import Opportunity from "@/components/sections/opportunity";
 
 export default function HomePage() {
     return (
         <>
-            <HeroSection />
-            <ContentSection />
-            <Features />
+            <Hero />
+            <Opportunity />
+            <ChallengesSolutions />
+            <Benefits />
         </>
     );
 }

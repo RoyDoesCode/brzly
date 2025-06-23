@@ -7,7 +7,7 @@ import { AnimatedGroup } from "@/components/ui/animated-group";
 import { Button } from "@/components/ui/button";
 import { TextEffect } from "@/components/ui/text-effect";
 
-import { HeroHeader } from "./header";
+import { HeroHeader } from "../header";
 import { useTranslations } from "next-intl";
 
 const transitionVariants: {
@@ -33,8 +33,8 @@ const transitionVariants: {
     },
 };
 
-export default function HeroSection() {
-    const t = useTranslations("HomePage.HeroSection");
+export default function Hero() {
+    const t = useTranslations("HomePage.Hero");
 
     return (
         <>
