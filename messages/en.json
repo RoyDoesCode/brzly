@@ -5,7 +5,8 @@
             "title": "Secure & Private AI for Your Business",
             "description": "BRZLY delivers on-premise AI solutions that run securely within your business. No cloud, no security risks, no hidden fees. Welcome to a new era of business AI - simple, secure, and entirely yours.",
             "cta1": "Free Consultation",
-            "cta2": "How It Works"
+            "cta2": "How It Works",
+            "customers": "Meet Our Customers"
         },
         "Opportunity": {
             "title": "The AI Revolution Is Here, and It's More Accessible Than Ever",
@@ -92,6 +93,17 @@
                     "title": "Ongoing Training & Support",
                     "description": "Step 4: We provide comprehensive training for your team and are always available to ensure you get the most out of your solution."
                 }
+            }
+        },
+        "TargetAudience": {
+            "title": "Who We're For",
+            "description": "BRZLY is designed for small and medium-sized businesses across all industries that want the benefits of AI without the risks and complexity of the cloud.",
+            "audience": {
+                "0": "CEOs & Managers seeking a significant competitive advantage.",
+                "1": "Those curious about AI but feel overwhelmed by the technical jargon.",
+                "2": "Businesses aiming to save time, boost productivity, and cut operational costs.",
+                "3": "Organizations committed to protecting their and their clients' data privacy.",
+                "4": "Anyone looking for a custom-fit solution, not a generic, off-the-shelf product."
             }
         }
     }
