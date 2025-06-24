@@ -1,4 +1,14 @@
 {
+    "Header": {
+        "items": {
+            "services": "Services",
+            "about": "About Us",
+            "howItWorks": "How It Works",
+            "faqs": "FAQs"
+        },
+        "contact": "Contact Us",
+        "testimonials": "Testimonials"
+    },
     "HomePage": {
         "Hero": {
             "tag": "The Solution for Small & Medium Businesses",

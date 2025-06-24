@@ -1,4 +1,5 @@
 "use client";
+
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -6,17 +7,20 @@ import React from "react";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-
-const menuItems = [
-    { name: "Features", href: "#link" },
-    { name: "Solution", href: "#link" },
-    { name: "Pricing", href: "#link" },
-    { name: "About", href: "#link" },
-];
+import { useTranslations } from "next-intl";
 
 export default function Header() {
+    const t = useTranslations("Header");
+
     const [menuState, setMenuState] = React.useState(false);
     const [isScrolled, setIsScrolled] = React.useState(false);
+
+    const menuItems = [
+        { name: t("items.services"), href: "/services" },
+        { name: t("items.about"), href: "/about" },
+        { name: t("items.howItWorks"), href: "/#how-it-works" },
+        { name: t("items.faqs"), href: "/#faqs" },
+    ];
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -85,18 +89,18 @@ export default function Header() {
                             </div>
                             <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                                 <Button asChild variant="outline" size="sm" className={cn(isScrolled && "lg:hidden")}>
-                                    <Link href="#">
-                                        <span>Login</span>
+                                    <Link href="/#testimonials">
+                                        <span>{t("testimonials")}</span>
                                     </Link>
                                 </Button>
                                 <Button asChild size="sm" className={cn(isScrolled && "lg:hidden")}>
-                                    <Link href="#">
-                                        <span>Sign Up</span>
+                                    <Link href="/contact">
+                                        <span>{t("contact")}</span>
                                     </Link>
                                 </Button>
                                 <Button asChild size="sm" className={cn(isScrolled ? "lg:inline-flex" : "hidden")}>
-                                    <Link href="#">
-                                        <span>Get Started</span>
+                                    <Link href="/contact">
+                                        <span>{t("contact")}</span>
                                     </Link>
                                 </Button>
                             </div>

@@ -1,4 +1,14 @@
 {
+    "Header": {
+        "items": {
+            "services": "פתרונות",
+            "about": "מי אנחנו",
+            "howItWorks": "איך זה עובד",
+            "faqs": "שאלות נפוצות"
+        },
+        "contact": "צרו קשר",
+        "testimonials": "המלצות"
+    },
     "HomePage": {
         "Hero": {
             "tag": "הפתרון לעסקים קטנים ובינוניים",
