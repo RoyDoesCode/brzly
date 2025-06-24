@@ -12,7 +12,7 @@ export default function TargetAudience() {
             <div className="mx-auto max-w-7xl px-6">
                 <div className="grid items-center place-items-center gap-12 md:grid-cols-2 md:gap-12 lg:grid-cols-5 lg:gap-24">
                     <div className="lg:col-span-2">
-                        <div className="md:pr-6 lg:pr-0">
+                        <div className="md:pe-6 lg:pe-0">
                             <h2 className="text-4xl font-semibold lg:text-5xl">{t("title")}</h2>
                             <p className="mt-6">{t("description")}</p>
                         </div>

@@ -63,7 +63,7 @@ export default function Benefits() {
                         </div>
 
                         <div>
-                            <div className="rounded-(--radius) mb-1 ml-auto w-3/5 bg-blue-600 p-3 text-xs text-white">
+                            <div className="rounded-(--radius) mb-1 ms-auto w-3/5 bg-blue-600 p-3 text-xs text-white">
                                 {t("benefits.efficient.msg2")}
                             </div>
                             <span className="text-muted-foreground block text-right text-xs">Now</span>
@@ -74,7 +74,7 @@ export default function Benefits() {
                     <p className="text-center text-4xl font-semibold lg:text-7xl">{t("benefits.tailored.title")}</p>
                 </div>
                 <div className="relative col-span-full">
-                    <div className="absolute z-10 left-0 text-left max-w-xl px-6 pr-12 pt-6 md:px-12 md:pt-12">
+                    <div className="absolute z-10 left-0 text-left max-w-xl px-6 pe-12 pt-6 md:px-12 md:pt-12">
                         <span className="text-muted-foreground flex items-center rtl:justify-end gap-2">
                             <Activity className="size-4" />
                             {t("benefits.simple.tag")}

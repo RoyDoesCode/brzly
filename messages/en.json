@@ -172,7 +172,98 @@
             "title": "Roy Barzilay: The Founder and Vision Behind BRZLY",
             "description": "With years of experience as a developer, Roy identified a critical market need: powerful AI that doesn't compromise on privacy.",
             "quote": "\"Years of experience in technology consulting taught me one thing: small and medium-sized businesses deserve access to the most advanced technologies, without compromising on core principles like privacy and security. I founded BRZLY with a vision to make the power of AI accessible in a way that is transparent, safe, and cost-effective, giving business owners full control. I believe the future is local AI—intelligence that truly works for your business, inside your business.\"",
-            "name": "Roey Barzilay, Founder of BRZLY, AI Consultant & Tech Strategist"
+            "name": "Roy Barzilay, Founder of BRZLY, AI Consultant & Tech Strategist"
+        }
+    },
+    "ServicesPage": {
+        "Services": {
+            "title": "Our Services: Custom-Built AI for Your Business",
+            "description": "We offer a range of AI services personally tailored for small and medium-sized businesses. All our services focus on implementing on-premise solutions that are fast, secure, and cost-effective, giving you a real competitive advantage.",
+            "cta": "Contact us"
+        },
+        "Service1": {
+            "title": "On-Premise AI Model Installation: Full Control, Optimal Performance",
+            "description": "We install advanced AI models directly onto your existing infrastructure. All data and processing remain within your organization, completely independent of the cloud.",
+            "points": {
+                "0": {
+                    "title": "Privacy",
+                    "description": "Maximum privacy and security"
+                },
+                "1": {
+                    "title": "Speed",
+                    "description": "Faster, more reliable performance"
+                },
+                "2": {
+                    "title": "Savings",
+                    "description": "Savings on variable cloud costs"
+                },
+                "3": {
+                    "title": "Control",
+                    "description": "Complete control over your data and systems"
+                }
+            }
+        },
+        "Service2": {
+            "title": "Seamless System Integration: AI That Fits Right In",
+            "description": "We integrate our AI solutions into your existing workflows and systems (CRM, ERP, etc.), ensuring the technology works in perfect harmony with your business operations.",
+            "cta": "Have a Question?"
+        },
+        "Service3": {
+            "title": "Custom AI Solution Development: Perfectly Tailored for You",
+            "description": "Instead of one-size-fits-all products, we build unique AI systems designed from the ground up to solve your specific business challenges and meet your goals.",
+            "points": {
+                "0": {
+                    "title": "Automation",
+                    "description": "Automation of business processes"
+                },
+                "1": {
+                    "title": "Customer Service",
+                    "description": "AI applications for customer service (chatbots, support systems)"
+                },
+                "2": {
+                    "title": "Data Analysis",
+                    "description": "Strategic data analysis and insights"
+                },
+                "3": {
+                    "title": "Applications",
+                    "description": "Custom computer vision applications"
+                }
+            }
+        },
+        "Service4": {
+            "title": "Ongoing Guidance, Training & Support: Your Partners on the Journey",
+            "description": "Implementation is just the beginning. We are committed to supporting you every step of the way with comprehensive training, strategic guidance, and responsive technical support.",
+            "cta": "Contact us"
+        }
+    },
+    "ContactPage": {
+        "Contact": {
+            "title": "Contact Us",
+            "founder": "Founder: Roy Barzilay",
+            "coFounder": "Co-Founder: Kfir Barzilay",
+            "formTitle": "Ready to Get Started?",
+            "formDescription": "Whether you have a question or you're ready to discover how local AI can transform your business, we're here to help. Fill out the form below, and our team of experts will contact you to schedule your free, no-obligation consultation.",
+            "form": {
+                "name": { "label": "Full Name" },
+                "email": { "label": "Email" },
+                "phone": { "label": "Phone Number", "countrySearch": "Search country..." },
+                "website": { "label": "Company Website" },
+                "message": {
+                    "label": "Message",
+                    "placeholder": "Hey, I'd love to talk to you about local AI for my company..."
+                },
+                "submit": "Sumbit",
+                "error": "Something went wrong while sending your request. Please try again later.",
+                "success": "Your request was sent successfully!"
+            }
+        },
+        "SenderEmailTemplate": {
+            "subjectLine": "We've received your message",
+            "h1": "Thanks for reaching out",
+            "p1": "We've received your message and will get back to you as soon as possible. We typically reply back within 24 hours.",
+            "p2": "If your inquiry is urgent, feel free to reach out to us via WhatsApp",
+            "regards": "Best regards",
+            "team": "The BRZLY Team"
         }
     },
     "Footer": {

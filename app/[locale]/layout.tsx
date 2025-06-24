@@ -6,7 +6,9 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 
 import BGGradient from "@/components/ui/bg-gradient";
+import { Toaster } from "@/components/ui/sonner";
 import { routing } from "@/i18n/routing";
+import QueryProvider from "@/providers/query-provider";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -28,8 +30,13 @@ export default async function RootLayout({
     return (
         <html lang={locale} dir={locale === "he" ? "rtl" : "ltr"} className="dark" suppressHydrationWarning>
             <body className="antialiased">
-                <BGGradient />
-                <NextIntlClientProvider>{children}</NextIntlClientProvider>
+                <NextIntlClientProvider>
+                    <QueryProvider>
+                        {children}
+                        <BGGradient />
+                        <Toaster />
+                    </QueryProvider>
+                </NextIntlClientProvider>
             </body>
         </html>
     );
