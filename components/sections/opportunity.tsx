@@ -21,7 +21,7 @@ export default function Opportunity() {
                         <h3 className="text-2xl font-medium">{t("tagline")}</h3>
                         <p>{t("body")}</p>
                         <Button asChild variant="secondary" size="sm" className="gap-1 pe-1.5">
-                            <Link href="#">
+                            <Link href="/#benefits">
                                 <span>{t("cta")}</span>
                                 <ChevronRight className="size-3 rtl:hidden" />
                                 <ChevronLeft className="size-3 ltr:hidden" />

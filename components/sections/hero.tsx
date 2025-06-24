@@ -49,7 +49,7 @@ export default function Hero() {
                             <div className="text-center sm:mx-auto lg:me-auto lg:mt-0">
                                 <AnimatedGroup variants={transitionVariants}>
                                     <Link
-                                        href="#link"
+                                        href="/services"
                                         className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 ps-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950"
                                     >
                                         <span className="text-foreground text-sm">{t("tag")}</span>
@@ -108,7 +108,7 @@ export default function Hero() {
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5"
                                     >
                                         <Button asChild size="lg" className="rounded-xl px-5 text-base">
-                                            <Link href="#link">
+                                            <Link href="/contact">
                                                 <span className="text-nowrap">{t("cta1")}</span>
                                             </Link>
                                         </Button>
@@ -120,7 +120,7 @@ export default function Hero() {
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5"
                                     >
-                                        <Link href="#link">
+                                        <Link href="/#how-it-works">
                                             <span className="text-nowrap">{t("cta2")}</span>
                                         </Link>
                                     </Button>
@@ -169,7 +169,7 @@ export default function Hero() {
                 <section className="bg-background pb-16 pt-16 md:pb-32">
                     <div className="group relative m-auto max-w-5xl px-6">
                         <div className="absolute inset-0 z-10 flex scale-95 items-center justify-center opacity-0 duration-500 group-hover:scale-100 group-hover:opacity-100">
-                            <Link href="/" className="block text-sm duration-150 hover:opacity-75">
+                            <Link href="/#testimonials" className="block text-sm duration-150 hover:opacity-75">
                                 <span> {t("customers")}</span>
 
                                 <ChevronRight className="ms-1 inline-block size-3 rtl:hidden" />

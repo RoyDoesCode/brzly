@@ -120,6 +120,10 @@
         @apply bg-background text-foreground;
     }
 
+    *::selection {
+        @apply bg-foreground/80 text-muted;
+    }
+
     .cpu-architecture {
         offset-anchor: 10px 0px;
         animation: animation-path;

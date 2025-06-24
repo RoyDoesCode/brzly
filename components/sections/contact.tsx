@@ -56,8 +56,6 @@ const formSchema = z.object({
 type FormValues = z.infer<typeof formSchema>;
 
 export default function Contact() {
-    const { locale } = useParams();
-
     const t = useTranslations("ContactPage.Contact");
     const form = useForm<FormValues>({
         resolver: zodResolver(formSchema),
@@ -161,7 +159,7 @@ export default function Contact() {
                                         <FormItem>
                                             <FormLabel>{t("form.phone.label")}</FormLabel>
                                             <FormControl>
-                                                <PhoneInput defaultCountry={locale === "he" ? "IL" : "US"} {...field} />
+                                                <PhoneInput {...field} />
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>

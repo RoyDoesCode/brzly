@@ -1,9 +1,7 @@
-import { Resend } from "resend";
 import { NextResponse, NextRequest } from "next/server";
 import { AdminEmailTemplate, SenderEmailTemplate } from "@/components/email-templates";
 import { getTranslations } from "next-intl/server";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import resend from "@/lib/resend";
 
 export async function POST(req: NextRequest) {
     try {

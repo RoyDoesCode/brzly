@@ -16,7 +16,7 @@
             "description": "BRZLY delivers on-premise AI solutions that run securely within your business. No cloud, no security risks, no hidden fees. Welcome to a new era of business AI - simple, secure, and entirely yours.",
             "cta1": "Free Consultation",
             "cta2": "How It Works",
-            "customers": "Meet Our Customers"
+            "customers": "What Our Clients Think"
         },
         "Opportunity": {
             "title": "The AI Revolution Is Here, and It's More Accessible Than Ever",
@@ -151,7 +151,9 @@
             "description": "The future of your business starts here. Don't compromise on privacy, efficiency, or control. Contact BRZLY today to discover how on-premise AI can transform your business for the better.",
             "cta": "Send",
             "placeholder": "WhatsApp phone no.",
-            "ctaLine": "Schedule Your Free Consultation Now!"
+            "ctaLine": "Schedule Your Free Consultation Now!",
+            "error": "Something went wrong while sending your request. Please try again later.",
+            "success": "Your request was sent successfully!"
         }
     },
     "AboutPage": {
@@ -277,6 +279,14 @@
         }
     },
     "Footer": {
+        "items": {
+            "services": "Services",
+            "about": "About Us",
+            "howItWorks": "How It Works",
+            "faqs": "FAQs",
+            "contact": "Contact Us",
+            "privacy": "Privacy Policy"
+        },
         "rights": "BRZLY, All rights reserved"
     }
 }

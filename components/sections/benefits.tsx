@@ -10,7 +10,7 @@ export default function Benefits() {
     const t = useTranslations("HomePage.Benefits");
 
     return (
-        <section className="px-4 py-16 md:py-32">
+        <section id="benefits" className="px-4 py-16 md:py-32">
             <div className="mx-auto max-w-2xl text-center space-y-6 mb-10">
                 <h2 className="text-4xl font-medium">{t("title")}</h2>
                 <h3>{t("description")}</h3>
@@ -66,7 +66,7 @@ export default function Benefits() {
                             <div className="rounded-(--radius) mb-1 ms-auto w-3/5 bg-blue-600 p-3 text-xs text-white">
                                 {t("benefits.efficient.msg2")}
                             </div>
-                            <span className="text-muted-foreground block text-right text-xs">Now</span>
+                            <span className="text-muted-foreground block text-end text-xs">Now</span>
                         </div>
                     </div>
                 </div>

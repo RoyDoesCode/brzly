@@ -55,7 +55,7 @@ export default function Services() {
                         <p className="text-muted-foreground">{t("description")}</p>
 
                         <Button variant="outline" size="sm" asChild>
-                            <Link href="#">{t("cta")}</Link>
+                            <Link href="/contact">{t("cta")}</Link>
                         </Button>
                     </div>
                 </div>

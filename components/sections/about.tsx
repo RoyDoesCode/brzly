@@ -25,7 +25,7 @@ export default function About() {
                         <p>{t("description")}</p>
 
                         <Button asChild variant="secondary" size="sm" className="gap-1 pe-1.5">
-                            <Link href="#">
+                            <Link href="/contact">
                                 <span>{t("cta")}</span>
                                 <ChevronRight className="size-2 rtl:hidden" />
                                 <ChevronLeft className="size-2 ltr:hidden" />

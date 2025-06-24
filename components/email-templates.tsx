@@ -74,3 +74,15 @@ export async function SenderEmailTemplate({ name }: SenderEmailTemplateProps) {
         </div>
     );
 }
+
+export function PhoneEmailTemplate({ phone }: { phone: string }) {
+    return (
+        <div style={{ fontFamily: "Arial, sans-serif", lineHeight: 1.6, color: "#333", padding: "20px" }}>
+            <h1 style={{ fontSize: "20px", marginBottom: "20px" }}>New Phone Number Submission</h1>
+
+            <p>
+                <strong>Phone:</strong> <a href={`tel:${phone}`}>{phone}</a>
+            </p>
+        </div>
+    );
+}
