@@ -26,10 +26,10 @@ export default function TargetAudience() {
                         </ul>
                     </div>
                     <div className="border-border/50 max-w-[500px] relative rounded-3xl border p-3 lg:col-span-3">
-                        <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
+                        <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl from-zinc-300 to-transparent p-1 dark:from-zinc-700">
                             <Image
                                 src="/assets/roy.jpg"
-                                className="hidden rounded-[15px] h-full object-cover dark:block"
+                                className="rounded-[15px] h-full object-cover saturate-0"
                                 alt="Roy Barzilay"
                                 width={1276}
                                 height={1276}

@@ -140,7 +140,39 @@
             "title": "Ready for the Private AI Revolution?",
             "description": "The future of your business starts here. Don't compromise on privacy, efficiency, or control. Contact BRZLY today to discover how on-premise AI can transform your business for the better.",
             "cta": "Send",
-            "placeholder": "WhatsApp phone no."
+            "placeholder": "WhatsApp phone no.",
+            "ctaLine": "Schedule Your Free Consultation Now!"
+        }
+    },
+    "AboutPage": {
+        "About": {
+            "title": "Who We Are: BRZLY - Israel's On-Premise AI Pioneers",
+            "description": "BRZLY specializes in on-premise AI solutions for small and medium-sized businesses. We deliver all the benefits of artificial intelligence, without the privacy risks, high costs, and complexity of the cloud, by keeping your sensitive data securely inside your company.",
+            "cta": "Contact us"
+        },
+        "Vision": {
+            "title": "Our Vision: Smart, Secure, and Accessible AI for Every Business",
+            "description": "Our vision is to make the power of Artificial Intelligence both available and safe for any business. We believe data privacy and security are not luxuries, but fundamental rights.",
+            "items": {
+                "0": {
+                    "title": "Simplicity",
+                    "description": "Making AI implementation and use easy and intuitive for everyone."
+                },
+                "1": {
+                    "title": "Security",
+                    "description": "Ensuring the highest level of privacy and security for your business data."
+                },
+                "2": {
+                    "title": "Results",
+                    "description": "Delivering AI solutions that generate tangible savings in time and money."
+                }
+            }
+        },
+        "Founder": {
+            "title": "Roy Barzilay: The Founder and Vision Behind BRZLY",
+            "description": "With years of experience as a developer, Roy identified a critical market need: powerful AI that doesn't compromise on privacy.",
+            "quote": "\"Years of experience in technology consulting taught me one thing: small and medium-sized businesses deserve access to the most advanced technologies, without compromising on core principles like privacy and security. I founded BRZLY with a vision to make the power of AI accessible in a way that is transparent, safe, and cost-effective, giving business owners full control. I believe the future is local AI—intelligence that truly works for your business, inside your business.\"",
+            "name": "Roey Barzilay, Founder of BRZLY, AI Consultant & Tech Strategist"
         }
     },
     "Footer": {

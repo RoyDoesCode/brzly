@@ -25,11 +25,15 @@ export default function CallToAction() {
                             <div className="md:pe-1.5 lg:pe-0">
                                 <Button aria-label="submit" className="rounded-(--radius)">
                                     <span className="hidden md:block">{t("cta")}</span>
-                                    <SendHorizonal className="relative mx-auto size-5 md:hidden" strokeWidth={2} />
+                                    <SendHorizonal
+                                        className="relative mx-auto size-5 md:hidden rtl:rotate-180"
+                                        strokeWidth={2}
+                                    />
                                 </Button>
                             </div>
                         </div>
                     </form>
+                    <p className="mt-8 text-sm max-w-sm mx-auto">{t("ctaLine")}</p>
                 </div>
             </div>
         </section>
