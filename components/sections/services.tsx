@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Services() {
     const t = useTranslations("ServicesPage.Services");
@@ -19,15 +20,21 @@ export default function Services() {
                         ></div>
                         <div className="mx-auto mb-2 flex w-fit justify-center gap-2">
                             <IntegrationCard>
-                                <Gemini />
+                                <Image src="/assets/logos/slack.png" alt="slack" width={256} height={256} />
                             </IntegrationCard>
                             <IntegrationCard>
-                                <Replit />
+                                <Image
+                                    src="/assets/logos/ollama.png"
+                                    alt="ollama"
+                                    width={256}
+                                    height={256}
+                                    className="!h-9"
+                                />
                             </IntegrationCard>
                         </div>
                         <div className="mx-auto my-2 flex w-fit justify-center gap-2">
                             <IntegrationCard>
-                                <MagicUI />
+                                <Image src="/assets/logos/deepseek.png" alt="deepseek" width={256} height={256} />
                             </IntegrationCard>
                             <IntegrationCard
                                 borderClassName="shadow-black-950/10 shadow-xl border-black/25 dark:border-white/25"
@@ -36,17 +43,17 @@ export default function Services() {
                                 <LogoIcon />
                             </IntegrationCard>
                             <IntegrationCard>
-                                <VSCodium />
+                                <Image src="/assets/logos/n8n.png" alt="n8n" width={256} height={256} />
                             </IntegrationCard>
                         </div>
 
                         <div className="mx-auto flex w-fit justify-center gap-2">
                             <IntegrationCard>
-                                <MediaWiki />
+                                <Image src="/assets/logos/openwebui.png" alt="openwebui" width={256} height={256} />
                             </IntegrationCard>
 
                             <IntegrationCard>
-                                <GooglePaLM />
+                                <Image src="/assets/logos/lmstudio.png" alt="lmstudio" width={256} height={256} />
                             </IntegrationCard>
                         </div>
                     </div>
@@ -82,7 +89,7 @@ const IntegrationCard = ({
                     borderClassName
                 )}
             />
-            <div className="relative z-20 m-auto size-fit *:size-8">{children}</div>
+            <div className="relative z-20 m-auto size-fit *:h-8 *:w-auto">{children}</div>
         </div>
     );
 };

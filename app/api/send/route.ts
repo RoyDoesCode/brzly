@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
     try {
         const data = await req.json();
 
-        if (!data.name || !data.email || !data.message) {
+        if (!data.name || !data.email || !data.message || !data.locale) {
             return new NextResponse("Insufficient data", { status: 400 });
         }
 
@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
             from: `BRZLY Team <noreply@brzly.com>`,
             to: [data.email],
             subject: t("subjectLine"),
-            react: SenderEmailTemplate({ name: data.name.split(" ")[0] }),
+            react: SenderEmailTemplate({ name: data.name.split(" ")[0], locale: data.locale }),
         });
 
         if (senderEmail.error) {

@@ -1,7 +1,7 @@
-import { Cpu, Lock, Sparkles, Zap } from "lucide-react";
+import { BadgeDollarSign, Cpu, FastForward, GlobeLock } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const icons = [Zap, Cpu, Lock, Sparkles];
+const icons = [GlobeLock, FastForward, BadgeDollarSign, Cpu];
 
 export default function Service1() {
     const t = useTranslations("ServicesPage.Service1");

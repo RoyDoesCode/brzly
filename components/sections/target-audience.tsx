@@ -1,8 +1,8 @@
-import { Activity, DraftingCompass, Mail, Zap } from "lucide-react";
+import { ChartLine, Cpu, Lock, SquarePen, Timer } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-const icons = [Mail, Zap, Activity, DraftingCompass, DraftingCompass];
+const icons = [ChartLine, Cpu, Timer, Lock, SquarePen];
 
 export default function TargetAudience() {
     const t = useTranslations("HomePage.TargetAudience");

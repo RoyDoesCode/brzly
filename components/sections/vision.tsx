@@ -1,10 +1,10 @@
-import { Settings2, Sparkles, Zap } from "lucide-react";
+import { ChartLine, LockKeyhole, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
-const icons = [Zap, Settings2, Sparkles];
+const icons = [Sparkles, LockKeyhole, ChartLine];
 
 export default function Vision() {
     const t = useTranslations("AboutPage.Vision");

@@ -5,6 +5,7 @@ export const Logo = ({ className, ...props }: Partial<React.ComponentProps<typeo
     return (
         <Image
             {...props}
+            priority
             alt="BRZLY Logo"
             src="/logo.png"
             width={530}

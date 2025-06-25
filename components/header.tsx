@@ -93,7 +93,7 @@ export default function Header() {
                                         <span>{t("testimonials")}</span>
                                     </Link>
                                 </Button>
-                                <Button asChild size="sm" className={cn(isScrolled && "lg:hidden")}>
+                                <Button asChild size="sm" className={cn(isScrolled && "hidden")}>
                                     <Link href="/contact">
                                         <span>{t("contact")}</span>
                                     </Link>

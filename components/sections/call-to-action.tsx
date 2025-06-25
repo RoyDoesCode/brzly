@@ -46,7 +46,7 @@ export default function CallToAction() {
                             <FaWhatsapp className="text-caption pointer-events-none absolute inset-y-0 left-3 right-auto my-auto size-5" />
 
                             <PhoneInput
-                                className="[&_>_*]:border-none [&_>_*]:rounded-none [&_>_*]:!bg-transparent py-1 pl-8 [&_>_*]:focus-visible:ring-0"
+                                className="[&_>_*]:border-none [&_>_*]:rounded-none [&_>_*]:!bg-transparent py-1 pl-7 [&_>_*]:focus-visible:ring-0"
                                 value={phone}
                                 onChange={(phone) => setPhone(phone)}
                             />

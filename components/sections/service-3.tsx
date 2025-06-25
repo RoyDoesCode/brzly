@@ -1,8 +1,8 @@
-import { Cpu, Zap } from "lucide-react";
+import { ChartLine, LayoutGrid, Users, Zap } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-const icons = [Zap, Cpu, Zap, Cpu];
+const icons = [Zap, Users, ChartLine, LayoutGrid];
 
 export default function Service3() {
     const t = useTranslations("ServicesPage.Service3");

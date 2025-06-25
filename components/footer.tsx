@@ -29,7 +29,7 @@ export default function Footer() {
         { title: t("items.howItWorks"), href: "/#how-it-works" },
         { title: t("items.faqs"), href: "/#faqs" },
         { title: t("items.contact"), href: "/contact" },
-        { title: t("items.privacy"), href: "/privacy-policy" },
+        { title: t("items.privacy"), href: "/policy/privacy" },
     ];
 
     const socials = [

@@ -1,10 +1,11 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Settings2, Sparkles, Zap } from "lucide-react";
+import { BadgeDollarSign, BanknoteArrowUp, LockKeyhole, LockOpen, Sparkles, TriangleAlert } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 
-const challengesIcons = [Zap, Settings2, Sparkles];
-const solutionsIcons = [Zap, Settings2, Sparkles];
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+
+const challengesIcons = [LockOpen, BanknoteArrowUp, TriangleAlert];
+const solutionsIcons = [LockKeyhole, BadgeDollarSign, Sparkles];
 
 export default function ChallengesSolutions() {
     const t = useTranslations("HomePage.ChallengesSolutions");

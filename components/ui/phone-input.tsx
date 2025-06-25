@@ -1,7 +1,8 @@
 "use client";
 
-import * as React from "react";
 import { CheckIcon, ChevronsUpDown } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import * as React from "react";
 import * as RPNInput from "react-phone-number-input";
 import flags from "react-phone-number-input/flags";
 
@@ -11,8 +12,6 @@ import { Input } from "@/components/ui/input";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
-import { useTranslations } from "next-intl";
-import { useParams } from "next/navigation";
 
 type PhoneInputProps = Omit<React.ComponentProps<"input">, "onChange" | "value" | "ref"> &
     Omit<RPNInput.Props<typeof RPNInput.default>, "onChange"> & {
@@ -23,7 +22,8 @@ const PhoneInput: React.ForwardRefExoticComponent<PhoneInputProps> = React.forwa
     React.ElementRef<typeof RPNInput.default>,
     PhoneInputProps
 >(({ className, onChange, value, ...props }, ref) => {
-    const { locale } = useParams();
+    const locale = useLocale();
+
     return (
         <div dir="ltr">
             <RPNInput.default

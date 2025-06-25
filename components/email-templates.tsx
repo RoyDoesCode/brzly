@@ -1,4 +1,5 @@
-import { getTranslations } from "next-intl/server";
+import { Locale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import React from "react";
 
 interface EmailTemplateProps {
@@ -49,9 +50,12 @@ export function AdminEmailTemplate({ name, email, message, phone, website }: Ema
 
 interface SenderEmailTemplateProps {
     name: string;
+    locale: Locale;
 }
 
-export async function SenderEmailTemplate({ name }: SenderEmailTemplateProps) {
+export async function SenderEmailTemplate({ name, locale }: SenderEmailTemplateProps) {
+    setRequestLocale(locale);
+
     const t = await getTranslations("ContactPage.SenderEmailTemplate");
 
     return (

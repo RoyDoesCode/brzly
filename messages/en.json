@@ -1,4 +1,8 @@
 {
+    "Meta": {
+        "title": "BRZLY | Private AI for Your Business: Secure On-Premise AI Solutions",
+        "description": "Elevate your business with BRZLY's private, on-premise AI solutions. Gain full control over your data, enjoy maximum security, and achieve immediate results without cloud risks. Tailored artificial intelligence for small and medium businesses - simple, secure, and cost-effective."
+    },
     "Header": {
         "items": {
             "services": "Services",
@@ -276,6 +280,118 @@
             "p2": "If your inquiry is urgent, feel free to reach out to us via WhatsApp",
             "regards": "Best regards",
             "team": "The BRZLY Team"
+        }
+    },
+
+    "PrivacyPolicyPage": {
+        "title": "Your Data Privacy Is Our Top Priority",
+        "description": "We understand that protecting sensitive information is not just a regulatory requirement—it's a matter of trust and reputation. That's why all our solutions are based on the principle of on-premise AI, where all your data remains within your work environment.",
+        "points": {
+            "title": "Why Local AI is the Most Secure Solution",
+            "0": {
+                "title": "No Cloud Data Transfers",
+                "description": "Eliminates the risk of data interception or external security breaches."
+            },
+            "1": {
+                "title": "Greater Control Over Data",
+                "description": "You are not dependent on third-party companies to manage or secure your information."
+            },
+            "2": {
+                "title": "Reduced Internet Dependency",
+                "description": "The system operates independently, removing security risks associated with public networks."
+            },
+            "3": {
+                "title": "Easier Regulatory Compliance",
+                "description": "Helps you meet strict privacy regulations like GDPR and other data protection laws."
+            }
+        },
+        "title2": "Adherence to Standards & Regulations: Complete Peace of Mind",
+        "description2": "BRZLY operates in accordance with the highest standards in data protection and information security, including principles from GDPR and relevant local laws. We ensure our on-premise AI solutions meet these requirements, providing you with full protection.",
+        "policy": {
+            "headline": "Privacy Policy",
+            "description": "This Privacy Policy describes how BRZLY (\"the Company\", \"we\", \"us\", \"our\") collects, uses, discloses, and protects your personal information when you visit our website https://brzly.com and when you use our services. We are committed to maintaining your privacy and protecting your personal information in accordance with the Privacy Protection Law, 5741-1981, and its regulations.",
+            "section1": {
+                "headline": "1. What information do we collect?",
+                "description": "We may collect various types of personal information, depending on your interaction with us:",
+                "list": [
+                    {
+                        "title": "Information you provide to us directly:",
+                        "items": [
+                            "Contact details: full name, email address, phone number, company name, job title – when you fill out contact forms, register for services, or communicate with us in other ways.",
+                            "Service-related information: details about your business needs, preferences, and any other information you choose to provide us for the purpose of receiving our services."
+                        ]
+                    },
+                    {
+                        "title": "Information collected automatically:",
+                        "items": [
+                            "Website usage data: IP address, browser type, operating system, pages visited, duration of stay, referrals to other sites. This information is collected using cookies and similar tracking technologies.",
+                            "It is important to note that the AI solutions we provide to our clients operate locally (On-Premise) within the client's environment, and do not transfer sensitive personal or business data to the cloud or to BRZLY's servers."
+                        ]
+                    }
+                ]
+            },
+            "section2": {
+                "headline": "2. How do we use your information?",
+                "description": "We use the collected information for the following purposes:",
+                "list": [
+                    "To provide and maintain our services: including technical support, responding to your inquiries, and fulfilling our contractual obligations.",
+                    "To improve our website and services: by analyzing usage data and understanding user needs.",
+                    "To communicate with you: sending updates, offers, marketing information (subject to your consent, if required), and responding to your questions.",
+                    "To comply with legal and regulatory requirements: including enforcing our terms of use and protecting our rights."
+                ]
+            },
+            "section3": {
+                "headline": "3. Information Sharing",
+                "description": "BRZLY does not sell, trade, or rent identifiable personal information of users to third parties. We may share information only in the following cases:",
+                "list": [
+                    "With service providers: third parties who assist us in operating the website or providing services (such as website hosting services, data analysis), subject to their commitment to maintaining the confidentiality of the information.",
+                    "To comply with law: if required by law, court order, or regulatory demand.",
+                    "To protect our rights: in cases where we believe in good faith that disclosure of information is necessary to protect our rights, your safety or the safety of others, investigate fraud, or respond to a government request."
+                ]
+            },
+            "section4": {
+                "headline": "4. Data Security",
+                "paragraph1": "We implement reasonable and industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. These measures include, among others, encryption, firewalls, physical and logical access controls. It is important to remember that no method of transmission over the Internet or method of electronic storage is 100% secure.",
+                "paragraph2": "As stated, the main advantage of BRZLY's AI solutions is that they operate locally at the client's site, which dramatically reduces security risks associated with transferring data to the cloud."
+            },
+            "section5": {
+                "headline": "5. Data Retention",
+                "description": "We will retain your personal information for as long as necessary for the purposes for which it was collected, or as required by law, regulation, or agreement."
+            },
+            "section6": {
+                "headline": "6. Your Rights",
+                "description": "In accordance with the Privacy Protection Law, you have the following rights regarding your personal information:",
+                "list": [
+                    "Right of Access: You have the right to review your personal information held by us.",
+                    "Right to Correction: You have the right to request the correction of personal information that is inaccurate, incomplete, or outdated.",
+                    "Right to Deletion: You have the right to request the deletion of personal information that is no longer necessary for the purposes for which it was collected, subject to legal limitations.",
+                    "Right to Object: You have the right to object to certain processing of personal information."
+                ],
+                "instruction": "To exercise these rights, please contact us using the contact details provided below."
+            },
+            "section7": {
+                "headline": "7. Cookies and Tracking Technologies",
+                "description": "Our website may use \"cookies\" and similar tracking technologies to improve the user experience, analyze website usage, and for marketing purposes. Cookies are small text files stored on your device. You can control cookies through your browser settings."
+            },
+            "section8": {
+                "headline": "8. Links to External Websites",
+                "description": "Our website may contain links to external websites that are not operated by us. This privacy policy does not apply to these websites, and we are not responsible for their content or their privacy policies. We recommend that you review the privacy policy of any website you visit."
+            },
+            "section9": {
+                "headline": "9. Changes to This Privacy Policy",
+                "description": "We reserve the right to update this privacy policy from time to time. Any changes will become effective immediately upon their publication on the website. We recommend that you check this page regularly to stay informed of any changes."
+            },
+            "section10": {
+                "headline": "10. Contact Us",
+                "description": "For any questions or requests regarding this privacy policy or your personal information, please contact us at:",
+                "companyName": "BRZLY",
+                "emailLabel": "Email:",
+                "email": "roy@brzly.com",
+                "phoneLabel": "Phone:",
+                "phone": "+972 527 088 557",
+                "effectiveDateLabel": "Effective Date:",
+                "effectiveDate": "25/06/2025"
+            }
         }
     },
     "Footer": {

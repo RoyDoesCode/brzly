@@ -2,9 +2,8 @@
 
 import axios from "axios";
 import { Loader2, SendHorizonal } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
@@ -56,6 +55,8 @@ const formSchema = z.object({
 type FormValues = z.infer<typeof formSchema>;
 
 export default function Contact() {
+    const locale = useLocale();
+
     const t = useTranslations("ContactPage.Contact");
     const form = useForm<FormValues>({
         resolver: zodResolver(formSchema),
@@ -70,7 +71,7 @@ export default function Contact() {
 
     const { mutate: send, isPending } = useMutation({
         mutationKey: ["send-email"],
-        mutationFn: async (data: FormValues) => (await axios.post("/api/send", data)).data,
+        mutationFn: async (data: FormValues) => (await axios.post("/api/send", { ...data, locale })).data,
         onError: () => toast(t("form.error"), { className: "bg-destructive" }),
         onSuccess: () => {
             toast(t("form.success"));

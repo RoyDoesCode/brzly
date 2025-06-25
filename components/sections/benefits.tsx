@@ -1,10 +1,11 @@
 "use client";
-import { Logo } from "@/components/logo";
-import { Activity, Map as MapIcon, MessageCircle } from "lucide-react";
 import DottedMap from "dotted-map";
-import { Area, AreaChart, CartesianGrid } from "recharts";
-import { type ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { Activity, FastForward, GlobeLock } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { Area, AreaChart, CartesianGrid } from "recharts";
+
+import { Logo } from "@/components/logo";
+import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 
 export default function Benefits() {
     const t = useTranslations("HomePage.Benefits");
@@ -19,7 +20,7 @@ export default function Benefits() {
                 <div>
                     <div className="p-6 sm:p-12">
                         <span className="text-muted-foreground flex items-center gap-2">
-                            <MapIcon className="size-4" />
+                            <GlobeLock className="size-4" />
                             {t("benefits.private.tag")}
                         </span>
 
@@ -43,7 +44,7 @@ export default function Benefits() {
                 <div className="overflow-hidden border-t bg-zinc-50 p-6 sm:p-12 md:border-0 md:border-l dark:bg-transparent">
                     <div className="relative z-10">
                         <span className="text-muted-foreground flex items-center gap-2">
-                            <MessageCircle className="size-4" />
+                            <FastForward className="size-4" />
                             {t("benefits.efficient.tag")}
                         </span>
 

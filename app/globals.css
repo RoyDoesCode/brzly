@@ -124,6 +124,14 @@
         @apply bg-foreground/80 text-muted;
     }
 
+    .userway_buttons_wrapper {
+        @apply !top-auto !right-auto !bottom-4 !left-6 !transform-none;
+    }
+
+    .uai {
+        @apply focus-within:saturate-0;
+    }
+
     .cpu-architecture {
         offset-anchor: 10px 0px;
         animation: animation-path;
