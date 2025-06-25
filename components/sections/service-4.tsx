@@ -1,7 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { ReactNode } from "react";
 
 import { Button } from "@/components/ui/button";
 

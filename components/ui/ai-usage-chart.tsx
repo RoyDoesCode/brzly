@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
+import { LineChart, Line, CartesianGrid, XAxis, YAxis } from "recharts";
 import { ChartContainer, ChartConfig, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { useTranslations } from "next-intl";
 

@@ -1,4 +1,3 @@
-import { Gemini, Replit, MagicUI, VSCodium, MediaWiki, GooglePaLM } from "@/components/logos";
 import { LogoIcon } from "@/components/logo";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";

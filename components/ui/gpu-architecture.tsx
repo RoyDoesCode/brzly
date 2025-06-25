@@ -15,8 +15,6 @@ export interface CpuArchitectureSvgProps {
 
 export default function GpuArchitecture({
     className,
-    width = "50%",
-    height = "100%",
     text = "GPU",
     showCpuConnections = true,
     animateText = true,

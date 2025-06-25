@@ -1,14 +1,6 @@
 import { Logo } from "@/components/logo";
 import { useTranslations } from "next-intl";
 import {
-    BiLogoInstagramAlt,
-    BiLogoTiktok,
-    BiLogoYoutube,
-    BiLogoLinkedin,
-    BiLogoWhatsapp,
-    BiEnvelope,
-} from "react-icons/bi";
-import {
     TbBrandInstagramFilled,
     TbBrandTiktokFilled,
     TbBrandYoutubeFilled,
