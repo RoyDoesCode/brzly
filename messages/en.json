@@ -282,7 +282,9 @@
             "team": "The BRZLY Team"
         }
     },
-
+    "ApplyPage": {
+        "title": "Fill out the form bellow to check if you qualify for our secure & cheap local AI solution"
+    },
     "PrivacyPolicyPage": {
         "title": "Your Data Privacy Is Our Top Priority",
         "description": "We understand that protecting sensitive information is not just a regulatory requirement—it's a matter of trust and reputation. That's why all our solutions are based on the principle of on-premise AI, where all your data remains within your work environment.",
