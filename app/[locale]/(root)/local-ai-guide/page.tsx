@@ -15,13 +15,14 @@ export default function LocalAIGuidePage() {
 
                 {/* 0 */}
                 <section className="space-y-5">
-                    <h2 className="text-2xl font-bold">0. מה זה בכלל "מודל" ולמה צריך אותו?</h2>
+                    <h2 className="text-2xl font-bold">0. מה זה בכלל &quot;מודל&quot; ולמה צריך אותו?</h2>
                     <p>
                         דמיינו קובץ שהוא <strong>מוח מלאכותי</strong>. כמו ספר גדול עם המון עמודים:
                     </p>
                     <ul className="list-disc list-inside space-y-1 rtl:text-right">
                         <li>
-                            <strong>עמודים = "פרמטרים"</strong>. יותר עמודים ← המוח יודע יותר דברים, אבל גם שוקל יותר.
+                            <strong>עמודים = &quot;פרמטרים&quot;</strong>. יותר עמודים ← המוח יודע יותר דברים, אבל גם
+                            שוקל יותר.
                         </li>
                         <li>המודל יושב על המחשב שלכם ומחכה שתשאלו שאלות.</li>
                     </ul>
@@ -74,7 +75,7 @@ export default function LocalAIGuidePage() {
 
                 {/* 2 */}
                 <section className="space-y-5">
-                    <h2 className="text-2xl font-bold">2. שתי דרכים להתחיל - ללא "חורים שחורים" טכניים</h2>
+                    <h2 className="text-2xl font-bold">2. שתי דרכים להתחיל - ללא &quot;חורים שחורים&quot; טכניים</h2>
                     <div className="overflow-x-auto">
                         <table className="min-w-full divide-y divide-gray-700 text-right rtl:text-right">
                             <thead className="bg-gray-800">
@@ -88,24 +89,24 @@ export default function LocalAIGuidePage() {
                                 <tr>
                                     <td className="px-4 py-2 font-semibold">GPT4All</td>
                                     <td className="px-4 py-2">
-                                        אשף התקנה בעברית-כמעט-מלאה. לוחצים "Next" 4 פעמים וזהו.
+                                        אשף התקנה בעברית-כמעט-מלאה. לוחצים &quot;Next&quot; 4 פעמים וזהו.
                                     </td>
                                     <td className="px-4 py-2">הורדה מהאתר gpt4all.io ← מפעילים קובץ Setup.</td>
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2 font-semibold">LM Studio</td>
                                     <td className="px-4 py-2">
-                                        חלון יפה: "בחר מודל ולחץ Play". תומך Windows, macOS, Linux.
+                                        חלון יפה: &quot;בחר מודל ולחץ Play&quot;. תומך Windows, macOS, Linux.
                                     </td>
                                     <td className="px-4 py-2">
-                                        הורדה מ-lmstudio.ai ← לגרור לאפליקציות (Mac) או "Next" (Win).
+                                        הורדה מ-lmstudio.ai ← לגרור לאפליקציות (Mac) או &quot;Next&quot; (Win).
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <blockquote className="border-r-4 border-gray-500 pr-4 text-right">
-                        <strong>שאלה נפוצה:</strong> *"מה עם טרמינל?"* - שוכחים ממנו בשלב הזה. נשתמש רק בעכבר.
+                        <strong>שאלה נפוצה:</strong> *&quot;מה עם טרמינל?&quot;* - שוכחים ממנו בשלב הזה. נשתמש רק בעכבר.
                     </blockquote>
                 </section>
 
@@ -116,14 +117,14 @@ export default function LocalAIGuidePage() {
                     <h2 className="text-2xl font-bold">3. הורדה והפעלה - צעד אחר צעד (ללא קוד)</h2>
                     <ol className="list-decimal list-inside space-y-1 rtl:text-right">
                         <li>פותחים את GPT4All או LM Studio.</li>
-                        <li>האפליקציה מציעה רשימת "מודלים". בחרו "mistral-7b" (שם קצר ונחמד).</li>
+                        <li>האפליקציה מציעה רשימת &quot;מודלים&quot;. בחרו &quot;mistral-7b&quot; (שם קצר ונחמד).</li>
                         <li>
                             לחצו <strong>Download</strong>. יירד קובץ של \~4 GB - כמו סרט HD.
                         </li>
                         <li>
                             כפתור <strong>Chat</strong> או <strong>Play</strong> נדלק. לחצו.
                         </li>
-                        <li>תשאלו בעברית: "מה מכינים מארבעה תפוחי אדמה?" - וקבלו תשובה!</li>
+                        <li>תשאלו בעברית: &quot;מה מכינים מארבעה תפוחי אדמה?&quot; - וקבלו תשובה!</li>
                     </ol>
                     <p>
                         <strong>*אין אינטרנט?*</strong> ברגע שהקובץ ירד, אפשר לנתק Wi-Fi - זה רץ מקומית.
@@ -157,12 +158,15 @@ export default function LocalAIGuidePage() {
                                 <tr>
                                     <td className="px-4 py-2 font-semibold">RAM</td>
                                     <td className="px-4 py-2">
-                                        הזיכרון הזמני של המחשב. מודל גדול צריך יותר "שולחן עבודה" לפרוס עליו דפים.
+                                        הזיכרון הזמני של המחשב. מודל גדול צריך יותר &quot;שולחן עבודה&quot; לפרוס עליו
+                                        דפים.
                                     </td>
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2 font-semibold">GPU</td>
-                                    <td className="px-4 py-2">"שרירי-על" לציורים ומשחקים; עוזרים גם ל-AI לרוץ מהר.</td>
+                                    <td className="px-4 py-2">
+                                        &quot;שרירי-על&quot; לציורים ומשחקים; עוזרים גם ל-AI לרוץ מהר.
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td className="px-4 py-2 font-semibold">כיווץ Q4/Q5</td>
